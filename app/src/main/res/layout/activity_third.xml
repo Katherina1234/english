@@ -48,6 +48,22 @@
             android:onClick="onMove"
 
             android:text="Головне меню" />
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="Ваші відповіді"
+            android:textSize="34sp" />
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="34sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

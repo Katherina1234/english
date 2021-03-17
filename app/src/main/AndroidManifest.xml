@@ -22,6 +22,9 @@
         <activity android:name=".ActivityThird">
 
         </activity>
+        <activity android:name=".AboutActivity">
+
+        </activity>
     </application>
 
 </manifest>
