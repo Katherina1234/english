@@ -7,9 +7,13 @@
     <item
         android:id="@+id/save_settings"
         android:orderInCategory="3"
-        android:title="Мої результати" />
+        android:title="Додати слово" />
     <item
         android:id="@+id/open_settings"
         android:orderInCategory="2"
-        android:title="На початок" />
+        android:title="Всі слова" />
+    <item
+        android:id="@+id/change_color"
+        android:orderInCategory="4"
+        android:title="Зміна кольору" />
 </menu>
