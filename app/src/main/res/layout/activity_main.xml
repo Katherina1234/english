@@ -47,5 +47,16 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
         tools:layout_editor_absoluteX="156dp"
         tools:layout_editor_absoluteY="598dp" />
-
+    <Button
+        android:id="@+id/button_popup"
+        android:onClick="onPopup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Меню"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="20dp"
+        android:background="#CD5C5C"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/button"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
